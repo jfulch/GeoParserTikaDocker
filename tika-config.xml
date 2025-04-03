@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <parsers>
+        <parser class="org.apache.tika.parser.DefaultParser"/>
+        <parser class="org.apache.tika.parser.geo.topic.GeoTopicParser">
+            <mime>application/geotopic</mime>
+            <params>
+                <param name="gazetteerUrl" type="string">http://localhost:8765</param>
+            </params>
+        </parser>
+    </parsers>
+    <mimeTypeRepository resource="/app/geotopic-mime/org/apache/tika/mime/custom-mimetypes.xml"/>
+</properties>

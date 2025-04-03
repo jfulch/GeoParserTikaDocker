@@ -1,0 +1,35 @@
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+LICENSE
+docs/
+*.md
+
+# Docker files
+.dockerignore
+Dockerfile
+
+# Large data that will be downloaded inside container
+geoIndex/
+allCountries.txt
+allCountries.zip
+
+# Build artifacts
+target/
+
+# Local environment
+.env
+.vscode/
+.idea/
+
+# Testing files
+test/
+*.test
+*.geot
+
+# Logs
+logs/
+*.log
