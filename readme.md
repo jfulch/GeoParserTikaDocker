@@ -2,6 +2,13 @@
 
 A containerized solution for geographic entity extraction from text documents using Apache Tika and GeoNames gazetteer.
 
+## Docker Details
+- https://hub.docker.com/r/jfulch/geotopic-parser
+
+```bash
+docker pull jfulch/geotopic-parser
+```
+
 ## Overview
 
 This Docker image provides a complete environment for parsing documents and extracting geographic information. It combines two powerful services:
@@ -20,6 +27,14 @@ This Docker image provides a complete environment for parsing documents and extr
 - Docker installed on your system
 - At least 4GB RAM available for Docker
 - 8GB+ disk space (for GeoNames database)
+
+## Platform Compatibility
+
+This Docker image supports multiple architectures:
+- ARM64 (Apple Silicon Macs)
+- AMD64 (Intel Macs and most Linux/Windows systems)
+
+Docker will automatically pull the correct version for your system architecture.
 
 ## Quick Start
 Pull from Docker Hub
